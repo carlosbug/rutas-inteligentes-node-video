@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-    res.send("Rutas Inteligentes - Servidor Node.js funcionando");
+    res.send("Rutas Inteligentes - Gestión y optimización de rutas");
 });
 
 app.listen(PORT, () => {
